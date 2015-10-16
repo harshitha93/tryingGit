@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PrimaryColor">#0288D1</color>
+    <color name="PrimaryDarkColor">#03A9F4</color>
+    <color name="AccentColor">#448AFF</color>
+    <color name="LightPrimaryColor">#B3E5FC</color>
+    <color name="dividercolor">#E0E0E0</color>
+    <color name="tabindicator">#fff</color>
+    <color name="black">#000</color>
+<color name="white">#ffffff</color>
+    <color name="description">#727272</color>
+    <color name="experience">#484848</color>
+    <color name="location">#b1b1b1</color>
+
+</resources>

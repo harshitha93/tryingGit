@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_alljobs"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Alljobs"
+            android:checked="false"
+            android:icon="@drawable/icon_home"
+            android:title="All Jobs" />
+</group>
+
+    <group android:id="@+id/group_second"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/Favourite"
+            android:checked="false"
+            android:icon="@drawable/icon_fav"
+            android:title="Favourite" />
+
+        <item
+            android:id="@+id/Shortlisted"
+            android:checked="false"
+            android:icon="@drawable/icon_tick"
+            android:title="Shortlisted" />
+
+        <item
+            android:id = "@+id/Evaluated"
+            android:checked="false"
+            android:icon="@drawable/icon_tick"
+            android:title="Evaluated" />
+
+        <item
+            android:id = "@+id/OnHold"
+            android:checked="false"
+            android:title="On Hold" />
+
+
+        <item
+            android:id="@+id/Rejected"
+            android:checked="false"
+            android:icon="@drawable/icon_cross"
+            android:title="Rejected"/>
+</group>
+
+    <group
+        android:id="@+id/group_settings"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/Settings"
+            android:checked="false"
+            android:icon="@drawable/icon_settings"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/Help"
+            android:checked="false"
+            android:title="Help &amp; Feedback"/>
+    </group>
+
+</menu>
